@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{12015E05-8B92-4FC3-B2B1-8DFF218CF08A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{232A2F9E-EF46-4E0C-887B-3CC1AA116908}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{82AFD203-87E2-4A9D-989A-D909BCF3B967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroAnalytics.Core", "MicroAnalytics.Core\MicroAnalytics.Core.csproj", "{3C09FD73-E153-4564-B20C-8366D4B8CF97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C09FD73-E153-4564-B20C-8366D4B8CF97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C09FD73-E153-4564-B20C-8366D4B8CF97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C09FD73-E153-4564-B20C-8366D4B8CF97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C09FD73-E153-4564-B20C-8366D4B8CF97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C09FD73-E153-4564-B20C-8366D4B8CF97} = {232A2F9E-EF46-4E0C-887B-3CC1AA116908}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F94E098D-8C80-484A-B552-45508CB78B66}
+	EndGlobalSection
+EndGlobal
